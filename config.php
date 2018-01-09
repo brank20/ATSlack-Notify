@@ -20,7 +20,7 @@
 $wsdl = "https://webservices5.autotask.net/ATServices/1.5/atws.wsdl"; #WEB SERVICES ENDPOINT THE NUMBER MATCHES THE REALM NUMBER#
 $slacknotificationsendpoint = "https://hooks.slack.com/services/WHOLE BUNCHA DATA HERE"; #YOUR SLACK ENDPOINT#
 $atzone = "ww5"; #your autotask realm get this by logging in and checking your url https://ww5.autotask.net (between :// and .autotask.net is the realm)#
-$username = ""; #autotask api username
+$username = ""; #autotask api username, be sure its the full email address of the apiuser.
 $password = ""; #autotask api password
 $extensiontoken = ""; #This String is used for all ticket extensions (append as ?s=THISTOKEN)
 
